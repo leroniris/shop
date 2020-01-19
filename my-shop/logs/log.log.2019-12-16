@@ -1,0 +1,662 @@
+2019-12-16 12:31:26,473 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2019-12-16 12:31:26,551 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Mon Dec 16 12:31:26 CST 2019]; root of context hierarchy
+2019-12-16 12:31:26,620 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [E:\SpringProject\qianfeng\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context-druid.xml]
+2019-12-16 12:31:26,879 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [E:\SpringProject\qianfeng\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context-mybatis.xml]
+2019-12-16 12:31:26,936 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [E:\SpringProject\qianfeng\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context.xml]
+2019-12-16 12:31:27,720 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2019-12-16 12:31:28,153 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1679 ms
+2019-12-16 12:31:28,199 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization started
+2019-12-16 12:31:28,201 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing WebApplicationContext for namespace 'springServlet-servlet': startup date [Mon Dec 16 12:31:28 CST 2019]; parent: Root WebApplicationContext
+2019-12-16 12:31:28,288 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [E:\SpringProject\qianfeng\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-mvc.xml]
+2019-12-16 12:31:28,767 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.LoginController.logout(javax.servlet.http.HttpServletRequest)
+2019-12-16 12:31:28,769 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[ || /login],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.LoginController.login()
+2019-12-16 12:31:28,769 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+2019-12-16 12:31:28,769 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/main],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.MainController.main()
+2019-12-16 12:31:28,772 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/form],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.UserController.form()
+2019-12-16 12:31:28,773 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/delete],methods=[POST]}" onto public com.lg.my.shop.commons.dto.BaseResult com.lg.my.shop.web.admin.web.controller.UserController.delete(java.lang.String,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2019-12-16 12:31:28,773 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/list],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.UserController.list()
+2019-12-16 12:31:28,773 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/save],methods=[POST]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.UserController.save(com.lg.my.shop.domain.TbUser,org.springframework.ui.Model,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2019-12-16 12:31:28,773 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/search],methods=[POST]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.UserController.search(com.lg.my.shop.domain.TbUser,org.springframework.ui.Model)
+2019-12-16 12:31:28,773 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/detail],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.UserController.detail(com.lg.my.shop.domain.TbUser)
+2019-12-16 12:31:28,774 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/page],methods=[GET]}" onto public com.lg.my.shop.commons.dto.PageInfo<com.lg.my.shop.domain.TbUser> com.lg.my.shop.web.admin.web.controller.UserController.page(javax.servlet.http.HttpServletRequest)
+2019-12-16 12:31:29,253 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Mon Dec 16 12:31:28 CST 2019]; parent: Root WebApplicationContext
+2019-12-16 12:31:29,316 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Mon Dec 16 12:31:28 CST 2019]; parent: Root WebApplicationContext
+2019-12-16 12:31:29,422 INFO [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/static/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2019-12-16 12:31:29,515 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization completed in 1316 ms
+2019-12-16 12:31:33,386 WARN [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'springServlet'
+2019-12-16 12:34:44,023 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing WebApplicationContext for namespace 'springServlet-servlet': startup date [Mon Dec 16 12:31:28 CST 2019]; parent: Root WebApplicationContext
+2019-12-16 12:34:44,039 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Mon Dec 16 12:31:26 CST 2019]; root of context hierarchy
+2019-12-16 12:34:44,050 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2019-12-16 12:40:29,924 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2019-12-16 12:40:30,000 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Mon Dec 16 12:40:30 CST 2019]; root of context hierarchy
+2019-12-16 12:40:30,065 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [E:\SpringProject\qianfeng\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context-druid.xml]
+2019-12-16 12:40:30,213 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [E:\SpringProject\qianfeng\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context-mybatis.xml]
+2019-12-16 12:40:30,230 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [E:\SpringProject\qianfeng\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context.xml]
+2019-12-16 12:40:31,004 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2019-12-16 12:40:31,340 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1415 ms
+2019-12-16 12:40:31,383 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization started
+2019-12-16 12:40:31,386 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing WebApplicationContext for namespace 'springServlet-servlet': startup date [Mon Dec 16 12:40:31 CST 2019]; parent: Root WebApplicationContext
+2019-12-16 12:40:31,456 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [E:\SpringProject\qianfeng\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-mvc.xml]
+2019-12-16 12:40:31,877 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+2019-12-16 12:40:31,878 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[ || /login],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.LoginController.login()
+2019-12-16 12:40:31,878 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.LoginController.logout(javax.servlet.http.HttpServletRequest)
+2019-12-16 12:40:31,879 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/main],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.MainController.main()
+2019-12-16 12:40:31,882 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/form],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.UserController.form()
+2019-12-16 12:40:31,882 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/delete],methods=[POST]}" onto public com.lg.my.shop.commons.dto.BaseResult com.lg.my.shop.web.admin.web.controller.UserController.delete(java.lang.String,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2019-12-16 12:40:31,882 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/list],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.UserController.list()
+2019-12-16 12:40:31,882 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/save],methods=[POST]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.UserController.save(com.lg.my.shop.domain.TbUser,org.springframework.ui.Model,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2019-12-16 12:40:31,883 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/search],methods=[POST]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.UserController.search(com.lg.my.shop.domain.TbUser,org.springframework.ui.Model)
+2019-12-16 12:40:31,883 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/detail],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.UserController.detail(com.lg.my.shop.domain.TbUser)
+2019-12-16 12:40:31,883 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/page],methods=[GET]}" onto public com.lg.my.shop.commons.dto.PageInfo<com.lg.my.shop.domain.TbUser> com.lg.my.shop.web.admin.web.controller.UserController.page(javax.servlet.http.HttpServletRequest,com.lg.my.shop.domain.TbUser)
+2019-12-16 12:40:32,327 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Mon Dec 16 12:40:31 CST 2019]; parent: Root WebApplicationContext
+2019-12-16 12:40:32,499 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Mon Dec 16 12:40:31 CST 2019]; parent: Root WebApplicationContext
+2019-12-16 12:40:32,605 INFO [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/static/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2019-12-16 12:40:32,693 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization completed in 1310 ms
+2019-12-16 12:42:10,203 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing WebApplicationContext for namespace 'springServlet-servlet': startup date [Mon Dec 16 12:40:31 CST 2019]; parent: Root WebApplicationContext
+2019-12-16 12:42:10,215 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Mon Dec 16 12:40:30 CST 2019]; root of context hierarchy
+2019-12-16 12:42:10,224 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2019-12-16 12:42:25,619 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2019-12-16 12:42:25,689 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Mon Dec 16 12:42:25 CST 2019]; root of context hierarchy
+2019-12-16 12:42:25,748 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [E:\SpringProject\qianfeng\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context-druid.xml]
+2019-12-16 12:42:25,884 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [E:\SpringProject\qianfeng\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context-mybatis.xml]
+2019-12-16 12:42:25,896 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [E:\SpringProject\qianfeng\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context.xml]
+2019-12-16 12:42:26,552 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2019-12-16 12:42:26,854 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1234 ms
+2019-12-16 12:42:26,894 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization started
+2019-12-16 12:42:26,896 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing WebApplicationContext for namespace 'springServlet-servlet': startup date [Mon Dec 16 12:42:26 CST 2019]; parent: Root WebApplicationContext
+2019-12-16 12:42:26,960 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [E:\SpringProject\qianfeng\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-mvc.xml]
+2019-12-16 12:42:27,364 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+2019-12-16 12:42:27,365 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[ || /login],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.LoginController.login()
+2019-12-16 12:42:27,365 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.LoginController.logout(javax.servlet.http.HttpServletRequest)
+2019-12-16 12:42:27,366 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/main],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.MainController.main()
+2019-12-16 12:42:27,368 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/form],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.UserController.form()
+2019-12-16 12:42:27,369 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/delete],methods=[POST]}" onto public com.lg.my.shop.commons.dto.BaseResult com.lg.my.shop.web.admin.web.controller.UserController.delete(java.lang.String,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2019-12-16 12:42:27,369 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/list],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.UserController.list()
+2019-12-16 12:42:27,369 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/save],methods=[POST]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.UserController.save(com.lg.my.shop.domain.TbUser,org.springframework.ui.Model,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2019-12-16 12:42:27,369 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/search],methods=[POST]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.UserController.search(com.lg.my.shop.domain.TbUser,org.springframework.ui.Model)
+2019-12-16 12:42:27,369 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/detail],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.UserController.detail(com.lg.my.shop.domain.TbUser)
+2019-12-16 12:42:27,369 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/page],methods=[GET]}" onto public com.lg.my.shop.commons.dto.PageInfo<com.lg.my.shop.domain.TbUser> com.lg.my.shop.web.admin.web.controller.UserController.page(javax.servlet.http.HttpServletRequest,com.lg.my.shop.domain.TbUser)
+2019-12-16 12:42:27,768 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Mon Dec 16 12:42:26 CST 2019]; parent: Root WebApplicationContext
+2019-12-16 12:42:27,827 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Mon Dec 16 12:42:26 CST 2019]; parent: Root WebApplicationContext
+2019-12-16 12:42:27,924 INFO [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/static/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2019-12-16 12:42:28,005 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization completed in 1111 ms
+2019-12-16 12:44:07,619 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2019-12-16 12:44:07,638 INFO [org.springframework.jdbc.support.SQLErrorCodesFactory] - SQLErrorCodes loaded: [DB2, Derby, H2, HDB, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2019-12-16 12:44:31,275 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing WebApplicationContext for namespace 'springServlet-servlet': startup date [Mon Dec 16 12:42:26 CST 2019]; parent: Root WebApplicationContext
+2019-12-16 12:44:31,284 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Mon Dec 16 12:42:25 CST 2019]; root of context hierarchy
+2019-12-16 12:44:31,291 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2019-12-16 12:44:47,064 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2019-12-16 12:44:47,141 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Mon Dec 16 12:44:47 CST 2019]; root of context hierarchy
+2019-12-16 12:44:47,204 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [E:\SpringProject\qianfeng\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context-druid.xml]
+2019-12-16 12:44:47,342 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [E:\SpringProject\qianfeng\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context-mybatis.xml]
+2019-12-16 12:44:47,355 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [E:\SpringProject\qianfeng\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context.xml]
+2019-12-16 12:44:48,055 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2019-12-16 12:44:48,394 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1330 ms
+2019-12-16 12:44:48,453 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization started
+2019-12-16 12:44:48,455 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing WebApplicationContext for namespace 'springServlet-servlet': startup date [Mon Dec 16 12:44:48 CST 2019]; parent: Root WebApplicationContext
+2019-12-16 12:44:48,529 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [E:\SpringProject\qianfeng\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-mvc.xml]
+2019-12-16 12:44:49,030 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+2019-12-16 12:44:49,031 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[ || /login],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.LoginController.login()
+2019-12-16 12:44:49,031 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.LoginController.logout(javax.servlet.http.HttpServletRequest)
+2019-12-16 12:44:49,031 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/main],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.MainController.main()
+2019-12-16 12:44:49,037 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/form],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.UserController.form()
+2019-12-16 12:44:49,037 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/delete],methods=[POST]}" onto public com.lg.my.shop.commons.dto.BaseResult com.lg.my.shop.web.admin.web.controller.UserController.delete(java.lang.String,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2019-12-16 12:44:49,037 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/list],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.UserController.list()
+2019-12-16 12:44:49,037 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/save],methods=[POST]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.UserController.save(com.lg.my.shop.domain.TbUser,org.springframework.ui.Model,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2019-12-16 12:44:49,037 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/search],methods=[POST]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.UserController.search(com.lg.my.shop.domain.TbUser,org.springframework.ui.Model)
+2019-12-16 12:44:49,037 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/detail],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.UserController.detail(com.lg.my.shop.domain.TbUser)
+2019-12-16 12:44:49,038 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/page],methods=[GET]}" onto public com.lg.my.shop.commons.dto.PageInfo<com.lg.my.shop.domain.TbUser> com.lg.my.shop.web.admin.web.controller.UserController.page(javax.servlet.http.HttpServletRequest,com.lg.my.shop.domain.TbUser)
+2019-12-16 12:44:49,465 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Mon Dec 16 12:44:48 CST 2019]; parent: Root WebApplicationContext
+2019-12-16 12:44:49,527 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Mon Dec 16 12:44:48 CST 2019]; parent: Root WebApplicationContext
+2019-12-16 12:44:49,631 INFO [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/static/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2019-12-16 12:44:49,721 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization completed in 1268 ms
+2019-12-16 12:56:40,316 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing WebApplicationContext for namespace 'springServlet-servlet': startup date [Mon Dec 16 12:44:48 CST 2019]; parent: Root WebApplicationContext
+2019-12-16 12:56:40,333 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Mon Dec 16 12:44:47 CST 2019]; root of context hierarchy
+2019-12-16 12:56:40,340 WARN [org.springframework.beans.factory.support.DisposableBeanAdapter] - Invocation of destroy method 'close' failed on bean with name 'dataSource': java.lang.IllegalStateException: java.io.FileNotFoundException: E:\SpringProject\qianfeng\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\lib\jackson-annotations-2.9.5.jar (系统找不到指定的文件。)
+2019-12-16 12:58:48,894 INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-12-16 12:58:48,911 INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5025a98f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@49993335, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@20322d26, org.springframework.test.context.support.DirtiesContextTestExecutionListener@192b07fd, org.springframework.test.context.transaction.TransactionalTestExecutionListener@64bfbc86, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@64bf3bbf]
+2019-12-16 12:58:48,960 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context.xml]
+2019-12-16 12:58:49,125 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-druid.xml]
+2019-12-16 12:58:49,155 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [spring-context-mybatis.xml]
+2019-12-16 12:58:49,175 INFO [org.springframework.context.support.GenericApplicationContext] - Refreshing org.springframework.context.support.GenericApplicationContext@35d176f7: startup date [Mon Dec 16 12:58:49 CST 2019]; root of context hierarchy
+2019-12-16 12:58:49,898 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2019-12-16 12:58:50,268 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2019-12-16 12:58:50,293 INFO [org.springframework.jdbc.support.SQLErrorCodesFactory] - SQLErrorCodes loaded: [DB2, Derby, H2, HDB, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2019-12-16 12:58:50,309 INFO [org.springframework.context.support.GenericApplicationContext] - Closing org.springframework.context.support.GenericApplicationContext@35d176f7: startup date [Mon Dec 16 12:58:49 CST 2019]; root of context hierarchy
+2019-12-16 12:58:50,314 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2019-12-16 13:01:53,470 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2019-12-16 13:01:53,601 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Mon Dec 16 13:01:53 CST 2019]; root of context hierarchy
+2019-12-16 13:01:53,685 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [E:\SpringProject\qianfeng\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context-druid.xml]
+2019-12-16 13:01:53,990 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [E:\SpringProject\qianfeng\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context-mybatis.xml]
+2019-12-16 13:01:54,012 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [E:\SpringProject\qianfeng\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context.xml]
+2019-12-16 13:01:55,596 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2019-12-16 13:01:56,491 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 3021 ms
+2019-12-16 13:01:56,590 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization started
+2019-12-16 13:01:56,597 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing WebApplicationContext for namespace 'springServlet-servlet': startup date [Mon Dec 16 13:01:56 CST 2019]; parent: Root WebApplicationContext
+2019-12-16 13:01:56,795 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [E:\SpringProject\qianfeng\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-mvc.xml]
+2019-12-16 13:01:57,874 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.LoginController.logout(javax.servlet.http.HttpServletRequest)
+2019-12-16 13:01:57,877 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[ || /login],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.LoginController.login()
+2019-12-16 13:01:57,877 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+2019-12-16 13:01:57,878 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/main],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.MainController.main()
+2019-12-16 13:01:57,885 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/form],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.UserController.form()
+2019-12-16 13:01:57,886 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/delete],methods=[POST]}" onto public com.lg.my.shop.commons.dto.BaseResult com.lg.my.shop.web.admin.web.controller.UserController.delete(java.lang.String,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2019-12-16 13:01:57,886 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/list],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.UserController.list()
+2019-12-16 13:01:57,886 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/save],methods=[POST]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.UserController.save(com.lg.my.shop.domain.TbUser,org.springframework.ui.Model,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2019-12-16 13:01:57,887 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/search],methods=[POST]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.UserController.search(com.lg.my.shop.domain.TbUser,org.springframework.ui.Model)
+2019-12-16 13:01:57,887 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/detail],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.UserController.detail(com.lg.my.shop.domain.TbUser)
+2019-12-16 13:01:57,887 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/page],methods=[GET]}" onto public com.lg.my.shop.commons.dto.PageInfo<com.lg.my.shop.domain.TbUser> com.lg.my.shop.web.admin.web.controller.UserController.page(javax.servlet.http.HttpServletRequest,com.lg.my.shop.domain.TbUser)
+2019-12-16 13:01:59,000 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Mon Dec 16 13:01:56 CST 2019]; parent: Root WebApplicationContext
+2019-12-16 13:01:59,176 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Mon Dec 16 13:01:56 CST 2019]; parent: Root WebApplicationContext
+2019-12-16 13:01:59,483 INFO [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/static/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2019-12-16 13:01:59,732 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization completed in 3142 ms
+2019-12-16 13:03:52,176 WARN [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'springServlet'
+2019-12-16 13:55:40,736 ERROR [org.springframework.web.servlet.tags.form.InputTag] - Neither BindingResult nor plain target object for bean name 'username' available as request attribute
+java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'username' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:142)
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getBindStatus(AbstractDataBoundFormElementTag.java:168)
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getPropertyPath(AbstractDataBoundFormElementTag.java:188)
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getName(AbstractDataBoundFormElementTag.java:154)
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.autogenerateId(AbstractDataBoundFormElementTag.java:141)
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.resolveId(AbstractDataBoundFormElementTag.java:132)
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.writeDefaultAttributes(AbstractDataBoundFormElementTag.java:116)
+	at org.springframework.web.servlet.tags.form.AbstractHtmlElementTag.writeDefaultAttributes(AbstractHtmlElementTag.java:422)
+	at org.springframework.web.servlet.tags.form.InputTag.writeTagContent(InputTag.java:142)
+	at org.springframework.web.servlet.tags.form.AbstractFormTag.doStartTagInternal(AbstractFormTag.java:84)
+	at org.springframework.web.servlet.tags.RequestContextAwareTag.doStartTag(RequestContextAwareTag.java:80)
+	at org.apache.jsp.WEB_002dINF.views.user_005flist_jsp._jspx_meth_form_005finput_005f0(user_005flist_jsp.java:428)
+	at org.apache.jsp.WEB_002dINF.views.user_005flist_jsp._jspService(user_005flist_jsp.java:203)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:476)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:728)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:470)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:395)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:316)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:168)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:303)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1286)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1041)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:984)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-12-16 13:55:44,066 ERROR [org.springframework.web.servlet.tags.form.InputTag] - Neither BindingResult nor plain target object for bean name 'username' available as request attribute
+java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'username' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:142)
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getBindStatus(AbstractDataBoundFormElementTag.java:168)
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getPropertyPath(AbstractDataBoundFormElementTag.java:188)
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getName(AbstractDataBoundFormElementTag.java:154)
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.autogenerateId(AbstractDataBoundFormElementTag.java:141)
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.resolveId(AbstractDataBoundFormElementTag.java:132)
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.writeDefaultAttributes(AbstractDataBoundFormElementTag.java:116)
+	at org.springframework.web.servlet.tags.form.AbstractHtmlElementTag.writeDefaultAttributes(AbstractHtmlElementTag.java:422)
+	at org.springframework.web.servlet.tags.form.InputTag.writeTagContent(InputTag.java:142)
+	at org.springframework.web.servlet.tags.form.AbstractFormTag.doStartTagInternal(AbstractFormTag.java:84)
+	at org.springframework.web.servlet.tags.RequestContextAwareTag.doStartTag(RequestContextAwareTag.java:80)
+	at org.apache.jsp.WEB_002dINF.views.user_005flist_jsp._jspx_meth_form_005finput_005f0(user_005flist_jsp.java:428)
+	at org.apache.jsp.WEB_002dINF.views.user_005flist_jsp._jspService(user_005flist_jsp.java:203)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:476)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:728)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:470)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:395)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:316)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:168)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:303)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1286)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1041)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:984)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-12-16 13:55:44,130 WARN [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'springServlet'
+2019-12-16 13:57:27,375 ERROR [org.springframework.web.servlet.tags.form.InputTag] - Neither BindingResult nor plain target object for bean name 'email' available as request attribute
+java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'email' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:142)
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getBindStatus(AbstractDataBoundFormElementTag.java:168)
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getPropertyPath(AbstractDataBoundFormElementTag.java:188)
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getName(AbstractDataBoundFormElementTag.java:154)
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.autogenerateId(AbstractDataBoundFormElementTag.java:141)
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.resolveId(AbstractDataBoundFormElementTag.java:132)
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.writeDefaultAttributes(AbstractDataBoundFormElementTag.java:116)
+	at org.springframework.web.servlet.tags.form.AbstractHtmlElementTag.writeDefaultAttributes(AbstractHtmlElementTag.java:422)
+	at org.springframework.web.servlet.tags.form.InputTag.writeTagContent(InputTag.java:142)
+	at org.springframework.web.servlet.tags.form.AbstractFormTag.doStartTagInternal(AbstractFormTag.java:84)
+	at org.springframework.web.servlet.tags.RequestContextAwareTag.doStartTag(RequestContextAwareTag.java:80)
+	at org.apache.jsp.WEB_002dINF.views.user_005flist_jsp._jspx_meth_form_005finput_005f0(user_005flist_jsp.java:425)
+	at org.apache.jsp.WEB_002dINF.views.user_005flist_jsp._jspService(user_005flist_jsp.java:211)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:476)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:728)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:470)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:395)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:316)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:168)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:303)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1286)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1041)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:984)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-12-16 13:58:01,934 ERROR [org.springframework.web.servlet.tags.form.InputTag] - Neither BindingResult nor plain target object for bean name 'phone' available as request attribute
+java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'phone' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:142)
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getBindStatus(AbstractDataBoundFormElementTag.java:168)
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getPropertyPath(AbstractDataBoundFormElementTag.java:188)
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getName(AbstractDataBoundFormElementTag.java:154)
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.autogenerateId(AbstractDataBoundFormElementTag.java:141)
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.resolveId(AbstractDataBoundFormElementTag.java:132)
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.writeDefaultAttributes(AbstractDataBoundFormElementTag.java:116)
+	at org.springframework.web.servlet.tags.form.AbstractHtmlElementTag.writeDefaultAttributes(AbstractHtmlElementTag.java:422)
+	at org.springframework.web.servlet.tags.form.InputTag.writeTagContent(InputTag.java:142)
+	at org.springframework.web.servlet.tags.form.AbstractFormTag.doStartTagInternal(AbstractFormTag.java:84)
+	at org.springframework.web.servlet.tags.RequestContextAwareTag.doStartTag(RequestContextAwareTag.java:80)
+	at org.apache.jsp.WEB_002dINF.views.user_005flist_jsp._jspx_meth_form_005finput_005f0(user_005flist_jsp.java:422)
+	at org.apache.jsp.WEB_002dINF.views.user_005flist_jsp._jspService(user_005flist_jsp.java:219)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:476)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:728)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:470)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:395)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:316)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:168)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:303)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1286)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1041)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:984)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-12-16 14:03:10,808 WARN [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'springServlet'
+2019-12-16 14:03:45,609 WARN [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'springServlet'
+2019-12-16 14:04:53,327 WARN [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'springServlet'
+2019-12-16 14:08:53,339 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing WebApplicationContext for namespace 'springServlet-servlet': startup date [Mon Dec 16 13:01:56 CST 2019]; parent: Root WebApplicationContext
+2019-12-16 14:08:53,354 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Mon Dec 16 13:01:53 CST 2019]; root of context hierarchy
+2019-12-16 14:08:53,361 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2019-12-16 14:09:11,538 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2019-12-16 14:09:11,626 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Mon Dec 16 14:09:11 CST 2019]; root of context hierarchy
+2019-12-16 14:09:11,693 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [E:\SpringProject\qianfeng\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context-druid.xml]
+2019-12-16 14:09:11,885 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [E:\SpringProject\qianfeng\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context-mybatis.xml]
+2019-12-16 14:09:11,905 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [E:\SpringProject\qianfeng\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context.xml]
+2019-12-16 14:09:12,879 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2019-12-16 14:09:13,277 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1738 ms
+2019-12-16 14:09:13,326 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization started
+2019-12-16 14:09:13,329 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing WebApplicationContext for namespace 'springServlet-servlet': startup date [Mon Dec 16 14:09:13 CST 2019]; parent: Root WebApplicationContext
+2019-12-16 14:09:13,445 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [E:\SpringProject\qianfeng\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-mvc.xml]
+2019-12-16 14:09:14,054 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+2019-12-16 14:09:14,056 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[ || /login],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.LoginController.login()
+2019-12-16 14:09:14,056 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.LoginController.logout(javax.servlet.http.HttpServletRequest)
+2019-12-16 14:09:14,056 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/main],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.MainController.main()
+2019-12-16 14:09:14,060 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/form],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.UserController.form()
+2019-12-16 14:09:14,060 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/delete],methods=[POST]}" onto public com.lg.my.shop.commons.dto.BaseResult com.lg.my.shop.web.admin.web.controller.UserController.delete(java.lang.String,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2019-12-16 14:09:14,060 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/list],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.UserController.list()
+2019-12-16 14:09:14,061 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/save],methods=[POST]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.UserController.save(com.lg.my.shop.domain.TbUser,org.springframework.ui.Model,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2019-12-16 14:09:14,061 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/search],methods=[POST]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.UserController.search(com.lg.my.shop.domain.TbUser,org.springframework.ui.Model)
+2019-12-16 14:09:14,061 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/detail],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.UserController.detail(com.lg.my.shop.domain.TbUser)
+2019-12-16 14:09:14,061 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/page],methods=[GET]}" onto public com.lg.my.shop.commons.dto.PageInfo<com.lg.my.shop.domain.TbUser> com.lg.my.shop.web.admin.web.controller.UserController.page(javax.servlet.http.HttpServletRequest,com.lg.my.shop.domain.TbUser)
+2019-12-16 14:09:14,539 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Mon Dec 16 14:09:13 CST 2019]; parent: Root WebApplicationContext
+2019-12-16 14:09:14,610 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Mon Dec 16 14:09:13 CST 2019]; parent: Root WebApplicationContext
+2019-12-16 14:09:14,731 INFO [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/static/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2019-12-16 14:09:14,846 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization completed in 1520 ms
+2019-12-16 14:18:16,652 WARN [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'springServlet'
+2019-12-16 14:24:16,714 WARN [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'springServlet'
+2019-12-16 14:24:29,423 WARN [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'springServlet'
+2019-12-16 14:24:36,319 WARN [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'springServlet'
+2019-12-16 14:26:25,251 WARN [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'springServlet'
+2019-12-16 14:38:05,633 WARN [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'springServlet'
+2019-12-16 14:38:07,174 WARN [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'springServlet'
+2019-12-16 14:38:38,689 WARN [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'springServlet'
+2019-12-16 14:40:16,105 WARN [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'springServlet'
+2019-12-16 14:40:47,325 WARN [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'springServlet'
+2019-12-16 14:43:24,812 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing WebApplicationContext for namespace 'springServlet-servlet': startup date [Mon Dec 16 14:09:13 CST 2019]; parent: Root WebApplicationContext
+2019-12-16 14:43:24,824 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Mon Dec 16 14:09:11 CST 2019]; root of context hierarchy
+2019-12-16 14:43:24,833 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2019-12-16 14:43:44,798 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2019-12-16 14:43:44,904 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Mon Dec 16 14:43:44 CST 2019]; root of context hierarchy
+2019-12-16 14:43:44,992 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [E:\SpringProject\qianfeng\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context-druid.xml]
+2019-12-16 14:43:45,230 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [E:\SpringProject\qianfeng\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context-mybatis.xml]
+2019-12-16 14:43:45,255 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [E:\SpringProject\qianfeng\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context.xml]
+2019-12-16 14:43:46,344 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2019-12-16 14:43:46,890 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 2092 ms
+2019-12-16 14:43:46,945 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization started
+2019-12-16 14:43:46,948 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing WebApplicationContext for namespace 'springServlet-servlet': startup date [Mon Dec 16 14:43:46 CST 2019]; parent: Root WebApplicationContext
+2019-12-16 14:43:47,082 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [E:\SpringProject\qianfeng\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-mvc.xml]
+2019-12-16 14:43:47,746 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.LoginController.logout(javax.servlet.http.HttpServletRequest)
+2019-12-16 14:43:47,747 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[ || /login],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.LoginController.login()
+2019-12-16 14:43:47,747 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+2019-12-16 14:43:47,748 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/main],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.MainController.main()
+2019-12-16 14:43:47,752 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/form],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.UserController.form()
+2019-12-16 14:43:47,753 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/delete],methods=[POST]}" onto public com.lg.my.shop.commons.dto.BaseResult com.lg.my.shop.web.admin.web.controller.UserController.delete(java.lang.String,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2019-12-16 14:43:47,753 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/list],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.UserController.list()
+2019-12-16 14:43:47,753 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/save],methods=[POST]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.UserController.save(com.lg.my.shop.domain.TbUser,org.springframework.ui.Model,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2019-12-16 14:43:47,753 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/search],methods=[POST]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.UserController.search(com.lg.my.shop.domain.TbUser,org.springframework.ui.Model)
+2019-12-16 14:43:47,754 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/detail],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.UserController.detail(com.lg.my.shop.domain.TbUser)
+2019-12-16 14:43:47,754 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/page],methods=[GET]}" onto public com.lg.my.shop.commons.dto.PageInfo<com.lg.my.shop.domain.TbUser> com.lg.my.shop.web.admin.web.controller.UserController.page(javax.servlet.http.HttpServletRequest,com.lg.my.shop.domain.TbUser)
+2019-12-16 14:43:48,357 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Mon Dec 16 14:43:46 CST 2019]; parent: Root WebApplicationContext
+2019-12-16 14:43:48,443 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Mon Dec 16 14:43:46 CST 2019]; parent: Root WebApplicationContext
+2019-12-16 14:43:48,590 INFO [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/static/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2019-12-16 14:43:48,726 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization completed in 1781 ms
+2019-12-16 14:44:57,056 WARN [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'springServlet'
+2019-12-16 14:45:57,759 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing WebApplicationContext for namespace 'springServlet-servlet': startup date [Mon Dec 16 14:43:46 CST 2019]; parent: Root WebApplicationContext
+2019-12-16 14:45:57,770 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Mon Dec 16 14:43:44 CST 2019]; root of context hierarchy
+2019-12-16 14:45:57,777 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2019-12-16 14:46:15,534 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2019-12-16 14:46:15,621 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Mon Dec 16 14:46:15 CST 2019]; root of context hierarchy
+2019-12-16 14:46:15,690 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [E:\SpringProject\qianfeng\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context-druid.xml]
+2019-12-16 14:46:15,887 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [E:\SpringProject\qianfeng\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context-mybatis.xml]
+2019-12-16 14:46:15,906 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [E:\SpringProject\qianfeng\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context.xml]
+2019-12-16 14:46:16,769 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2019-12-16 14:46:17,155 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1621 ms
+2019-12-16 14:46:17,211 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization started
+2019-12-16 14:46:17,217 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing WebApplicationContext for namespace 'springServlet-servlet': startup date [Mon Dec 16 14:46:17 CST 2019]; parent: Root WebApplicationContext
+2019-12-16 14:46:17,340 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [E:\SpringProject\qianfeng\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-mvc.xml]
+2019-12-16 14:46:17,883 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+2019-12-16 14:46:17,884 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[ || /login],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.LoginController.login()
+2019-12-16 14:46:17,885 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.LoginController.logout(javax.servlet.http.HttpServletRequest)
+2019-12-16 14:46:17,885 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/main],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.MainController.main()
+2019-12-16 14:46:17,889 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/form],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.UserController.form()
+2019-12-16 14:46:17,889 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/delete],methods=[POST]}" onto public com.lg.my.shop.commons.dto.BaseResult com.lg.my.shop.web.admin.web.controller.UserController.delete(java.lang.String,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2019-12-16 14:46:17,889 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/list],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.UserController.list()
+2019-12-16 14:46:17,890 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/save],methods=[POST]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.UserController.save(com.lg.my.shop.domain.TbUser,org.springframework.ui.Model,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2019-12-16 14:46:17,890 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/search],methods=[POST]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.UserController.search(com.lg.my.shop.domain.TbUser,org.springframework.ui.Model)
+2019-12-16 14:46:17,890 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/detail],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.UserController.detail(com.lg.my.shop.domain.TbUser)
+2019-12-16 14:46:17,890 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/page],methods=[GET]}" onto public com.lg.my.shop.commons.dto.PageInfo<com.lg.my.shop.domain.TbUser> com.lg.my.shop.web.admin.web.controller.UserController.page(javax.servlet.http.HttpServletRequest,com.lg.my.shop.domain.TbUser)
+2019-12-16 14:46:18,374 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Mon Dec 16 14:46:17 CST 2019]; parent: Root WebApplicationContext
+2019-12-16 14:46:18,447 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Mon Dec 16 14:46:17 CST 2019]; parent: Root WebApplicationContext
+2019-12-16 14:46:18,568 INFO [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/static/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2019-12-16 14:46:18,686 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization completed in 1475 ms
+2019-12-16 14:46:54,587 WARN [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'springServlet'
+2019-12-16 14:48:46,958 WARN [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'springServlet'
+2019-12-16 14:49:18,172 WARN [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'springServlet'
+2019-12-16 14:49:46,915 WARN [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'springServlet'
+2019-12-16 14:50:42,823 WARN [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'springServlet'
+2019-12-16 14:53:11,982 WARN [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'springServlet'
+2019-12-16 14:53:42,465 WARN [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'springServlet'
+2019-12-16 14:54:04,530 WARN [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'springServlet'
+2019-12-16 14:54:14,191 WARN [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'springServlet'
+2019-12-16 14:55:10,956 WARN [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'springServlet'
+2019-12-16 15:06:03,861 WARN [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'springServlet'
+2019-12-16 15:06:45,667 WARN [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'springServlet'
+2019-12-16 15:07:38,369 WARN [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'springServlet'
+2019-12-16 15:08:24,698 WARN [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'springServlet'
+2019-12-16 16:15:54,690 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing WebApplicationContext for namespace 'springServlet-servlet': startup date [Mon Dec 16 14:46:17 CST 2019]; parent: Root WebApplicationContext
+2019-12-16 16:15:54,697 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Mon Dec 16 14:46:15 CST 2019]; root of context hierarchy
+2019-12-16 16:15:54,707 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2019-12-16 18:26:37,260 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2019-12-16 18:26:37,379 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Mon Dec 16 18:26:37 CST 2019]; root of context hierarchy
+2019-12-16 18:26:37,463 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [E:\SpringProject\qianfeng\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context-druid.xml]
+2019-12-16 18:26:37,740 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [E:\SpringProject\qianfeng\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context-mybatis.xml]
+2019-12-16 18:26:37,773 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [E:\SpringProject\qianfeng\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context.xml]
+2019-12-16 18:26:38,848 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2019-12-16 18:26:39,292 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 2031 ms
+2019-12-16 18:26:39,348 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization started
+2019-12-16 18:26:39,352 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing WebApplicationContext for namespace 'springServlet-servlet': startup date [Mon Dec 16 18:26:39 CST 2019]; parent: Root WebApplicationContext
+2019-12-16 18:26:39,460 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [E:\SpringProject\qianfeng\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-mvc.xml]
+2019-12-16 18:26:40,022 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/content/category/list],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.ContentCategoryController.list()
+2019-12-16 18:26:40,024 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.LoginController.logout(javax.servlet.http.HttpServletRequest)
+2019-12-16 18:26:40,024 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[ || /login],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.LoginController.login()
+2019-12-16 18:26:40,024 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+2019-12-16 18:26:40,025 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/main],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.MainController.main()
+2019-12-16 18:26:40,027 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/form],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.UserController.form()
+2019-12-16 18:26:40,027 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/delete],methods=[POST]}" onto public com.lg.my.shop.commons.dto.BaseResult com.lg.my.shop.web.admin.web.controller.UserController.delete(java.lang.String,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2019-12-16 18:26:40,027 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/list],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.UserController.list()
+2019-12-16 18:26:40,027 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/save],methods=[POST]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.UserController.save(com.lg.my.shop.domain.TbUser,org.springframework.ui.Model,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2019-12-16 18:26:40,028 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/detail],methods=[GET]}" onto public java.lang.String com.lg.my.shop.web.admin.web.controller.UserController.detail(com.lg.my.shop.domain.TbUser)
+2019-12-16 18:26:40,028 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/user/page],methods=[GET]}" onto public com.lg.my.shop.commons.dto.PageInfo<com.lg.my.shop.domain.TbUser> com.lg.my.shop.web.admin.web.controller.UserController.page(javax.servlet.http.HttpServletRequest,com.lg.my.shop.domain.TbUser)
+2019-12-16 18:26:40,599 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Mon Dec 16 18:26:39 CST 2019]; parent: Root WebApplicationContext
+2019-12-16 18:26:40,676 INFO [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'springServlet-servlet': startup date [Mon Dec 16 18:26:39 CST 2019]; parent: Root WebApplicationContext
+2019-12-16 18:26:40,812 INFO [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/static/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2019-12-16 18:26:40,925 INFO [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'springServlet': initialization completed in 1577 ms
+2019-12-16 18:26:43,065 WARN [org.springframework.web.servlet.PageNotFound] - No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'springServlet'
+2019-12-16 18:37:33,793 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing WebApplicationContext for namespace 'springServlet-servlet': startup date [Mon Dec 16 18:26:39 CST 2019]; parent: Root WebApplicationContext
+2019-12-16 18:37:33,809 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Mon Dec 16 18:26:37 CST 2019]; root of context hierarchy
+2019-12-16 18:37:33,817 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2019-12-16 19:44:09,870 INFO [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+2019-12-16 19:44:10,026 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Mon Dec 16 19:44:10 CST 2019]; root of context hierarchy
+2019-12-16 19:44:10,130 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [E:\SpringProject\qianfeng\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context-druid.xml]
+2019-12-16 19:44:10,434 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [E:\SpringProject\qianfeng\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context-mybatis.xml]
+2019-12-16 19:44:10,458 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from file [E:\SpringProject\qianfeng\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context.xml]
+2019-12-16 19:44:11,630 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2019-12-16 19:44:11,813 WARN [org.springframework.web.context.support.XmlWebApplicationContext] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in file [E:\SpringProject\qianfeng\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context-mybatis.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [E:\SpringProject\qianfeng\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\mapper\TbContentCategoryMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 20; columnNumber: 7; 元素类型 "include" 必须由匹配的结束标记 "</include>" 终止。
+2019-12-16 19:44:11,817 INFO [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2019-12-16 19:44:11,820 ERROR [org.springframework.web.context.ContextLoader] - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in file [E:\SpringProject\qianfeng\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\spring-context-mybatis.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [E:\SpringProject\qianfeng\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\mapper\TbContentCategoryMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 20; columnNumber: 7; 元素类型 "include" 必须由匹配的结束标记 "</include>" 终止。
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1634)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:742)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:443)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4812)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5278)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:754)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:730)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.manageApp(HostConfig.java:1736)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:300)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.mbeans.MBeanFactory.createStandardContext(MBeanFactory.java:483)
+	at org.apache.catalina.mbeans.MBeanFactory.createStandardContext(MBeanFactory.java:432)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:300)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1468)
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76)
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1309)
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1401)
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [E:\SpringProject\qianfeng\my-shop\my-shop-web-admin\target\my-shop-web-admin-1.0.0-SNAPSHOT\WEB-INF\classes\mapper\TbContentCategoryMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 20; columnNumber: 7; 元素类型 "include" 必须由匹配的结束标记 "</include>" 终止。
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:523)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:380)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1692)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1630)
+	... 57 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 20; columnNumber: 7; 元素类型 "include" 必须由匹配的结束标记 "</include>" 终止。
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:256)
+	at org.apache.ibatis.parsing.XPathParser.<init>(XPathParser.java:125)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:78)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:520)
+	... 60 more
+Caused by: org.xml.sax.SAXParseException; lineNumber: 20; columnNumber: 7; 元素类型 "include" 必须由匹配的结束标记 "</include>" 终止。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1749)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:254)
+	... 63 more
